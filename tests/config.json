@@ -1,21 +1,22 @@
 {
     "reader": {
-        "connetor": {
+        "connector": {
             "type": "file",
             "config": {
-                "path": "/file/location/withfilename/"
+                "path": "../tests/input.txt"
             }
-
         }
     },
-    "transform": {
-        "type": ["TO_UPPER", "UNIQUE_WORD_COUNT"]
-    },
+    "transform": [
+        {
+            "type": "TO_UPPER"
+        }
+    ],
     "writer": {
         "connector": {
             "type": "file",
             "config": {
-                "path": "/file/location/withfilename"
+                "path": "../tests"
             }
         }
     }
