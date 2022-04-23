@@ -1,0 +1,22 @@
+{
+    "reader": {
+        "connetor": {
+            "type": "file",
+            "config": {
+                "path": "/file/location/withfilename/"
+            }
+
+        }
+    },
+    "transform": {
+        "type": ["TO_UPPER", "UNIQUE_WORD_COUNT"]
+    },
+    "writer": {
+        "connector": {
+            "type": "file",
+            "config": {
+                "path": "/file/location/withfilename"
+            }
+        }
+    }
+}
