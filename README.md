@@ -2,7 +2,7 @@
 A library which works on a config json to read from the source file apply the transformation and pushes the transformed result into sink.
 
 ## Pre-requisite
-- Install python@3.7
+- Install python@3.7 or above versions
 - Run `pip install -r requirements.txt` or `python3 -m pip install -r requirements.txt`
 
 ## How to run this utility
